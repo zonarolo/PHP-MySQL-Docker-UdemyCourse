@@ -19,7 +19,7 @@ The default ports have been changed to be able to run several Apache servers at 
 If you need to enter the container to play with MySQL like me the command you need is the following:
 
 ```
-docker exec -i (container_id) /bin/bash
+docker exec -it (container_id) /bin/bash
 ```
 
 and for search the IP that you need in the code for MySQL connections:
